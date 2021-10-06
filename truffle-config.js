@@ -113,6 +113,4 @@ module.exports = {
     //   }
     // }
   // }
-  contracts_directory: "./src/contracts",
-  migrations_directory: "./src/migrations"
 };
