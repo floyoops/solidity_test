@@ -8,7 +8,7 @@ contract Voters {
     mapping(address=>bool) voters;
 
     function setVote() public {
-        require(voters[msg.sender]!=true, 'You are already boted !');
+        require(voters[msg.sender]!=true, 'You are already voted !');
         vote = vote + 1;
         voters[msg.sender] = true;
     }

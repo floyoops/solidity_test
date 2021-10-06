@@ -1,5 +1,16 @@
 {
-  "dependencies": {
-    "@drizzle/react-plugin": "^1.5.3"
+  "name": "my-first-project-solidity",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:floyoops/solidity_test.git",
+  "author": "Florian Chaudret <florian.chaudret@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "truffle test"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.13"
   }
 }
